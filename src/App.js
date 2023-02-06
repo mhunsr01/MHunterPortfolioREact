@@ -1,16 +1,7 @@
-import React from 'react';
-import List from './components/Sidebar';
-import Nav from './components/Nav';
+import React from "react";
 
-// Import our list of users from users.js
-import work from './work';
+import PortfolioContainer from "./components/PortfolioContainer";
 
-// Pass users array to the List component as a prop
-export default function App() {
-  return (
-    <div>
-      <Nav />
-      <List work={work} />
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
+
+export default App;
