@@ -11,5 +11,5 @@ export default function Home() {
             you find a need for similar content found on this site, follow the links in the contact section.
       </p>
     </div>
-  );
-}
+  )}
+
